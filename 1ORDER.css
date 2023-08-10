@@ -20,7 +20,7 @@ header{
     flex-wrap: wrap;
     padding: 4rem;
     grid-gap:10px;
-}
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;}
 .card{
   display: grid;
   grid-template-columns: repeat(autofit,minmax(220px,auto));
@@ -30,11 +30,13 @@ header{
   align-content: center;
 background-color:rgb(12, 12, 51);
 border: 2px solid blueviolet;
-position: relative;}
+position: relative;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
 .add-cart{
   position: absolute;
 top: 245px;
 left: 180px;
+
 }
 img{
     height: 200px;
